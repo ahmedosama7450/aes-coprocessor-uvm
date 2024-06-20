@@ -64,13 +64,13 @@ class my_driver extends uvm_driver #(my_sequence_item);
     int OutPut_file;
     byte indx = 127;
     string line;
-    Prompt = $fopen("firmware_temp.mem", "r");
+    Prompt = $fopen("D:/College/GP/aes-coprocessor-uvm/firmware_temp.mem", "r");
     if (Prompt == 0) begin
       $display("Error: Could not open input file.");
       $finish;
     end
 
-    OutPut_file = $fopen("firmware_aes.mem", "w");
+    OutPut_file = $fopen("D:/College/GP/aes-coprocessor-uvm/firmware_aes.mem", "w");
     if (OutPut_file == 0) begin
       $display("Error: Could not open temporary file.");
       $fclose(Prompt);
