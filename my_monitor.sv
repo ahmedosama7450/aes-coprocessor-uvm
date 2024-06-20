@@ -28,7 +28,7 @@ class my_monitor extends uvm_monitor;
       @ (posedge vif.program_finished);
 
       my_sequence_item_h.data = vif.data;
-      my_sequence_item_h.key = vif.key;
+      // my_sequence_item_h.key = vif.key;
       my_sequence_item_h.result_enc = vif.result_enc;
       my_sequence_item_h.result_dec = vif.result_dec;
 

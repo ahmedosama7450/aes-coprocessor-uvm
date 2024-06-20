@@ -32,8 +32,10 @@ module memory #(
     output logic        data_exokay_o,
 
     // Needed for the testbench
-    output logic [127:0] result_enc_o,
-    output logic [127:0] result_dec_o
+    output logic [127:0] _data_o,
+    // output logic [127:0] _key_o,
+    output logic [127:0] _result_enc_o,
+    output logic [127:0] _result_dec_o
 );
 
   //---------------------------------------------------------------------------------
@@ -107,14 +109,19 @@ module memory #(
   assign data_exokay_o = 1'b1;
 
   // Needed for the testbench
-  assign result_enc_o[127:96] = data_mem[98];
-  assign result_enc_o[95:64] = data_mem[99];
-  assign result_enc_o[63:32] = data_mem[100];
-  assign result_enc_o[31:0] = data_mem[101];
+  assign _data_o[127:96] = data_mem[110];
+  assign _data_o[95:64] = data_mem[111];
+  assign _data_o[63:32] = data_mem[112];
+  assign _data_o[31:0] = data_mem[113];
 
-  assign result_dec_o[127:96] = data_mem[105];
-  assign result_dec_o[95:64] = data_mem[106];
-  assign result_dec_o[63:32] = data_mem[107];
-  assign result_dec_o[31:0] = data_mem[108];
+  assign _result_enc_o[127:96] = data_mem[98];
+  assign _result_enc_o[95:64] = data_mem[99];
+  assign _result_enc_o[63:32] = data_mem[100];
+  assign _result_enc_o[31:0] = data_mem[101];
+
+  assign _result_dec_o[127:96] = data_mem[105];
+  assign _result_dec_o[95:64] = data_mem[106];
+  assign _result_dec_o[63:32] = data_mem[107];
+  assign _result_dec_o[31:0] = data_mem[108];
 
 endmodule

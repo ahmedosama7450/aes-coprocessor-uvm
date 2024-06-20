@@ -77,8 +77,9 @@ module dut #(
       .data_exokay_o (data_exokay),
 
       // Needed for the testbench
-      .result_enc_o(dut_if.result_enc),
-      .result_dec_o(dut_if.result_dec)
+      ._data_o(dut_if.data),
+      ._result_enc_o(dut_if.result_enc),
+      ._result_dec_o(dut_if.result_dec)
   );
 
   cv32e40x_core_with_aes #(
