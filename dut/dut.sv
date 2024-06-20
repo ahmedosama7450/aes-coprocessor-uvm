@@ -6,14 +6,6 @@ module dut #(
 
   parameter bit WITH_AES = 1'b1;
 
-  logic clk;
-  logic rst_n;
-  assign dut_if.rst_n = rst_n;
-  assign dut_if.clk = clk;
-
-  logic fetch_enable;
-  assign dut_if.fetch_enable = fetch_enable;
-
   // Instruction memory interface
   logic instr_req;
   logic instr_gnt;
@@ -43,11 +35,11 @@ module dut #(
 
   memory #(
       .FIRMWARE_FILE(WITH_AES ?
-                    "D:\College\GP\aes-coprocessor-uvm/firmware_aes.mem" :
-                    "D:\College\GP\aes-coprocessor-uvm/firmware.mem")
+                    "D:/College/GP/aes-coprocessor-uvm/firmware_aes.mem" :
+                    "D:/College/GP/aes-coprocessor-uvm/firmware.mem")
   ) mem (
-      .clk_i (clk),
-      .rst_ni(rst_n),
+      .clk_i (dut_if.clk),
+      .rst_ni(dut_if.rst_n),
 
       // Instruction memory interface
       .instr_req_i    (instr_req),
@@ -87,8 +79,8 @@ module dut #(
       .DEBUG(0)
   ) dut (
       // Clock and reset
-      .clk_i       (clk),
-      .rst_ni      (rst_n),
+      .clk_i       (dut_if.clk),
+      .rst_ni      (dut_if.rst_n),
       .scan_cg_en_i(1'b0),
 
       // Static configuration
@@ -168,12 +160,12 @@ module dut #(
       .debug_pc_o       (),
 
       // CPU control signals
-      .fetch_enable_i(fetch_enable),
+      .fetch_enable_i(dut_if.fetch_enable),
       .core_sleep_o  (dut_if.program_finished)
   );
 
   // Clock generation
-  initial clk = 1'b0;
-  always #(CLK_PERIOD / 2) clk = ~clk;
+  initial dut_if.clk = 1'b0;
+  always #(CLK_PERIOD / 2) dut_if.clk = ~dut_if.clk;
 
 endmodule

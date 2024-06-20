@@ -1,5 +1,5 @@
 module memory #(
-    parameter string FIRMWARE_FILE = "D:/College/GP/aes-coprocessor/tb/firmware.mem"
+    parameter string FIRMWARE_FILE = "D:/College/GP/aes-coprocessor-uvm/firmware_aes.mem"
 ) (
     input clk_i,
     input rst_ni,
@@ -54,7 +54,7 @@ module memory #(
 
       // Reset intruction memory
       for (int i = 0; i < INSTR_MEM_SIZE; i = i + 1)
-        instr_mem[i] <= 32'd0;
+        instr_mem[i] = 32'd0;
       $readmemh(FIRMWARE_FILE, instr_mem);
     end else begin
       if (instr_req_i) begin
@@ -85,7 +85,7 @@ module memory #(
 
       // Reset data memory
       for (int i = 0; i < DATA_MEM_SIZE; i = i + 1)
-        data_mem[i] <= 32'd0;
+        data_mem[i] = 32'd0;
     end else begin
       if (data_req_i) begin
         if (data_we_i) begin
