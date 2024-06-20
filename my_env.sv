@@ -20,8 +20,8 @@ class my_env extends uvm_env;
   function void connect_phase(uvm_phase phase);
     super.connect_phase(phase);
 
-    my_agent.aport.connect(my_subscriber.analysis_export);
-    my_agent.aport.connect(my_scoreboard.aimp);
+    my_agent_h.aport.connect(my_subscriber_h.analysis_export);
+    my_agent_h.aport.connect(my_scoreboard_h.aimp);
   endfunction
 
 endclass

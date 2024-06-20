@@ -1,5 +1,5 @@
 class my_test extends uvm_test;
-  `uvm_component_utils(dex_test)
+  `uvm_component_utils(my_test)
 
   my_env my_env_h;
   my_sequence my_sequence_h;
@@ -10,7 +10,7 @@ class my_test extends uvm_test;
     super.new(name, parent);
   endfunction
 
-  function build_phase(uvm_phase phase);
+  function void build_phase(uvm_phase phase);
     super.build_phase(phase);
 
     my_env_h = my_env::type_id::create("my_env_h", this);

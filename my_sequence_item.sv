@@ -6,7 +6,7 @@ class my_sequence_item extends uvm_sequence_item;
   logic [127:0] result_enc;
   logic [127:0] result_dec;
   
-  function new(string name);
+  function new(string name = "my_sequence_item");
     super.new(name);
   endfunction
 

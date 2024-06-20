@@ -25,7 +25,7 @@ class my_monitor extends uvm_monitor;
       my_sequence_item my_sequence_item_h;
       my_sequence_item_h = my_sequence_item::type_id::create("my_sequence_item_h");
 
-      wait (vif.program_finished);
+      @ (posedge vif.program_finished);
 
       my_sequence_item_h.data = vif.data;
       my_sequence_item_h.key = vif.key;

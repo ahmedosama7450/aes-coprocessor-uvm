@@ -19,8 +19,8 @@ class my_subscriber extends uvm_subscriber #(my_sequence_item);
     my_sequence_item_h = my_sequence_item::type_id::create("my_sequence_item_h");
   endfunction
 
-  function void write(my_sequence_item my_sequence_item_h);
-    this.my_sequence_item_h = my_sequence_item_h;
+  function void write(my_sequence_item t);
+    this.my_sequence_item_h = t;
     cvg.sample();
   endfunction
 
