@@ -16,6 +16,11 @@ R0
 R0
 R0
 R0
+R0
+R0
+R0
+R0
+R0
 !s11f vlog 2021.1 2021.01, Jan 19 2021
 13
 !s112 1.1
@@ -86,10 +91,10 @@ R7
 R1
 T_opt5
 R2
-!s110 1718908844
-VDbQFb>`4=F>Y?Ca2PoHhM1
+!s110 1720383484
+VMoL1n[8_zHEj>`PMck@lY2
 R3
-=1-02004c4f4f50-667477aa-1d3-e78
+=1-02004c4f4f50-668af7fa-399-3ad8
 R4
 R5
 R6
@@ -97,7 +102,7 @@ n@_opt5
 R7
 vaes32dsi
 Z8 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z9 !s110 1718908804
+Z9 !s110 1720383445
 !i10b 1
 !s100 BezfHSPl0h78Vn8T76iHg0
 IA69M@>liLcz[akWJGJ1@j3
@@ -106,14 +111,14 @@ Z10 dD:/College/GP/aes-coprocessor-uvm/sim
 w1714838772
 8D:/College/GP/aes-coprocessor-uvm/rtl/src/aes/aes32dsi.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/src/aes/aes32dsi.sv
-!i122 2076
+!i122 2705
 Z11 L0 1 25
 Z12 VDg1SIo80bB@j0V0VzS_@n1
 Z13 OL;L;2021.1;73
 r1
 !s85 0
 31
-Z14 !s108 1718908804.000000
+Z14 !s108 1720383445.000000
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/src/aes/aes32dsi.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/src/aes/aes32dsi.sv|
 !i113 0
@@ -130,7 +135,7 @@ R10
 w1714838779
 8D:/College/GP/aes-coprocessor-uvm/rtl/src/aes/aes32dsmi.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/src/aes/aes32dsmi.sv
-!i122 2077
+!i122 2706
 Z16 L0 1 28
 R12
 R13
@@ -154,7 +159,7 @@ R10
 w1714838787
 8D:/College/GP/aes-coprocessor-uvm/rtl/src/aes/aes32esi.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/src/aes/aes32esi.sv
-!i122 2078
+!i122 2707
 R11
 R12
 R13
@@ -169,7 +174,7 @@ R15
 R6
 vaes32esmi
 R8
-Z17 !s110 1718908805
+R9
 !i10b 1
 !s100 8lPU9O8[XC9oFfP2zg36Q1
 IJ_4kLMBE7[OVgMFJ>GYHE0
@@ -178,7 +183,7 @@ R10
 w1714838877
 8D:/College/GP/aes-coprocessor-uvm/rtl/src/aes/aes32esmi.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/src/aes/aes32esmi.sv
-!i122 2079
+!i122 2708
 R16
 R12
 R13
@@ -193,7 +198,7 @@ R15
 R6
 vaes_coprocessor
 R8
-R9
+Z17 !s110 1720383444
 !i10b 1
 !s100 NQajXU:>:>2MK7B<C_4hd2
 IlEQ6zDIjRYhG96@M`LT`=2
@@ -202,14 +207,14 @@ R10
 w1714902823
 8D:/College/GP/aes-coprocessor-uvm/rtl/src/aes_coprocessor.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/src/aes_coprocessor.sv
-!i122 2071
+!i122 2700
 L0 1 286
 R12
 R13
 r1
 !s85 0
 31
-R14
+Z18 !s108 1720383444.000000
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/src/aes_coprocessor.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/src/aes_coprocessor.sv|
 !i113 0
@@ -217,7 +222,7 @@ R15
 R6
 vaes_mixcolumn_byte_fwd
 R8
-R9
+R17
 !i10b 1
 !s100 8NVO5QGjh7mS3h077]WLc2
 IRkK;;:D]M]00:k>Qn7Q6A2
@@ -226,14 +231,14 @@ R10
 w1714838750
 8D:/College/GP/aes-coprocessor-uvm/rtl/src/aes/aes_mixcolumn_byte_fwd.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/src/aes/aes_mixcolumn_byte_fwd.sv
-!i122 2073
+!i122 2702
 R11
 R12
 R13
 r1
 !s85 0
 31
-R14
+R18
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/src/aes/aes_mixcolumn_byte_fwd.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/src/aes/aes_mixcolumn_byte_fwd.sv|
 !i113 0
@@ -250,7 +255,7 @@ R10
 w1714838763
 8D:/College/GP/aes-coprocessor-uvm/rtl/src/aes/aes_mixcolumn_byte_inv.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/src/aes/aes_mixcolumn_byte_inv.sv
-!i122 2074
+!i122 2703
 L0 1 46
 R12
 R13
@@ -274,7 +279,7 @@ R10
 w1714838865
 8D:/College/GP/aes-coprocessor-uvm/rtl/src/aes/aes_testbench.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/src/aes/aes_testbench.sv
-!i122 2075
+!i122 2704
 L0 1 529
 R12
 R13
@@ -289,24 +294,24 @@ R15
 R6
 vcv32e40x_a_decoder
 R8
-Z18 DXx4 work 12 cv32e40x_pkg 0 22 hUK@Xhg8RJbcEl2`@R==@3
-Z19 !s110 1718908799
+Z19 DXx4 work 12 cv32e40x_pkg 0 22 hUK@Xhg8RJbcEl2`@R==@3
+Z20 !s110 1720383441
 !i10b 1
 !s100 Dh;Cl<G<bf0g5B9NFoZH62
 ITF6l@@zc;;K6H`o9bQJKl3
 S1
 R10
-Z20 w1714771133
+Z21 w1714771133
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_a_decoder.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_a_decoder.sv
-!i122 2026
+!i122 2655
 L0 29 93
 R12
 R13
 r1
 !s85 0
 31
-Z21 !s108 1718908799.000000
+Z22 !s108 1720383441.000000
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_a_decoder.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_a_decoder.sv|
 !i113 0
@@ -314,24 +319,24 @@ R15
 R6
 vcv32e40x_align_check
 R8
-R18
 R19
+R20
 !i10b 1
 !s100 1FOVH6HDnT2>lfi@lcn@<0
 ImlBMzefok?EjfVXzc`<a62
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_align_check.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_align_check.sv
-!i122 2027
+!i122 2656
 L0 26 159
 R12
 R13
 r1
 !s85 0
 31
-R21
+R22
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_align_check.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_align_check.sv|
 !i113 0
@@ -339,24 +344,24 @@ R15
 R6
 vcv32e40x_alignment_buffer
 R8
-R18
-Z22 !s110 1718908800
+R19
+R20
 !i10b 1
 !s100 UJhaMEEoQKC7b036[ebVo0
 IZHiLjczODAWH:A^do8R@;3
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_alignment_buffer.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_alignment_buffer.sv
-!i122 2028
+!i122 2657
 L0 24 639
 R12
 R13
 r1
 !s85 0
 31
-R21
+R22
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_alignment_buffer.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_alignment_buffer.sv|
 !i113 0
@@ -364,24 +369,24 @@ R15
 R6
 vcv32e40x_alu
 R8
-R18
-R22
+R19
+R20
 !i10b 1
 !s100 oMO1IEZ7Tz7:<iW@G_@5<0
 IQ9=^YZ4N2dRD7KdTnDIVb0
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_alu.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_alu.sv
-!i122 2029
+!i122 2658
 L0 50 356
 R12
 R13
 r1
 !s85 0
 31
-Z23 !s108 1718908800.000000
+R22
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_alu.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_alu.sv|
 !i113 0
@@ -389,23 +394,23 @@ R15
 R6
 vcv32e40x_alu_b_cpop
 R8
-R22
+R20
 !i10b 1
 !s100 =:7c7VaaRle1:RG65Dn[j3
 IJg2;UCE><UXcUz^PGP78g2
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_alu_b_cpop.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_alu_b_cpop.sv
-!i122 2030
+!i122 2659
 L0 30 16
 R12
 R13
 r1
 !s85 0
 31
-R23
+R22
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_alu_b_cpop.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_alu_b_cpop.sv|
 !i113 0
@@ -413,24 +418,24 @@ R15
 R6
 vcv32e40x_b_decoder
 R8
-R18
-R22
+R19
+R20
 !i10b 1
 !s100 nBo>@SDbBA?f0e5M_8>oK1
 I>PZ8>F92g:A1[6k0LRN0[2
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_b_decoder.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_b_decoder.sv
-!i122 2031
+!i122 2660
 L0 30 325
 R12
 R13
 r1
 !s85 0
 31
-R23
+R22
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_b_decoder.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_b_decoder.sv|
 !i113 0
@@ -438,24 +443,24 @@ R15
 R6
 vcv32e40x_clic_int_controller
 R8
-R18
-R22
+R19
+R20
 !i10b 1
 !s100 WoJb9BN]LW<khk1@?TTIn3
 I_^7:@Q`S=KIKn=>z;iiRP3
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_clic_int_controller.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_clic_int_controller.sv
-!i122 2032
+!i122 2661
 L0 29 149
 R12
 R13
 r1
 !s85 0
 31
-R23
+R22
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_clic_int_controller.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_clic_int_controller.sv|
 !i113 0
@@ -463,23 +468,23 @@ R15
 R6
 vcv32e40x_clock_gate
 R8
-Z24 !s110 1718908806
+Z23 !s110 1720383446
 !i10b 1
 !s100 :5n7J`E6AVJikJP958aSP2
 IV`W<<7@MhI_d^ia8fjHe;2
 S1
 R10
-R20
+w1720366919
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/bhv/cv32e40x_sim_clock_gate.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/bhv/cv32e40x_sim_clock_gate.sv
-!i122 2088
+!i122 2717
 L0 15 22
 R12
 R13
 r1
 !s85 0
 31
-Z25 !s108 1718908806.000000
+Z24 !s108 1720383446.000000
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/bhv/cv32e40x_sim_clock_gate.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/bhv/cv32e40x_sim_clock_gate.sv|
 !i113 0
@@ -487,24 +492,24 @@ R15
 R6
 vcv32e40x_compressed_decoder
 R8
-R18
-R22
+R19
+R20
 !i10b 1
 !s100 70BSE6Go[RTNbR:BI;ZbP3
 INKfLKXdBW;JJKGgT_`ee>3
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_compressed_decoder.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_compressed_decoder.sv
-!i122 2033
+!i122 2662
 L0 27 374
 R12
 R13
 r1
 !s85 0
 31
-R23
+R22
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_compressed_decoder.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_compressed_decoder.sv|
 !i113 0
@@ -512,24 +517,24 @@ R15
 R6
 vcv32e40x_controller
 R8
-R18
-R22
+R19
+R20
 !i10b 1
 !s100 6dRPZXl]D:>8YSUUcddeV0
 I6X44Io0h3Z?TP7U`>4@hC1
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_controller.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_controller.sv
-!i122 2034
+!i122 2663
 L0 32 256
 R12
 R13
 r1
 !s85 0
 31
-R23
+R22
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_controller.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_controller.sv|
 !i113 0
@@ -537,24 +542,24 @@ R15
 R6
 vcv32e40x_controller_bypass
 R8
-R18
-R22
+R19
+Z25 !s110 1720383442
 !i10b 1
 !s100 [EZ1074fG]Q_hNh];G:791
 I2^XekMZRCZ8KK:ST4Zmh]1
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_controller_bypass.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_controller_bypass.sv
-!i122 2035
+!i122 2664
 L0 33 310
 R12
 R13
 r1
 !s85 0
 31
-R23
+Z26 !s108 1720383442.000000
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_controller_bypass.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_controller_bypass.sv|
 !i113 0
@@ -562,24 +567,24 @@ R15
 R6
 vcv32e40x_controller_fsm
 R8
-R18
-R22
+R19
+R25
 !i10b 1
 !s100 Y9oM<H7<KcYX67;4n27;d3
 I7@QW2?8ADAY<6cRX;WBHz1
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_controller_fsm.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_controller_fsm.sv
-!i122 2036
+!i122 2665
 L0 32 1475
 R12
 R13
 r1
 !s85 0
 31
-R23
+R26
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_controller_fsm.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_controller_fsm.sv|
 !i113 0
@@ -587,24 +592,24 @@ R15
 R6
 vcv32e40x_core
 R8
-R18
-Z26 !s110 1718908801
+R19
+R25
 !i10b 1
 !s100 9@JH_f2>jP?a1eLF^3c0b3
 I4fR939@^ZXmVbeLWUmm<Q0
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_core.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_core.sv
-!i122 2037
+!i122 2666
 L0 32 1122
 R12
 R13
 r1
 !s85 0
 31
-R23
+R26
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_core.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_core.sv|
 !i113 0
@@ -612,8 +617,8 @@ R15
 R6
 vcv32e40x_core_with_aes
 R8
-R18
-R9
+R19
+R17
 !i10b 1
 !s100 7?e;=Skdb`A`aD<FV^b7n1
 IWIFfl=1[f4YTS=1CW1MG33
@@ -622,14 +627,14 @@ R10
 w1713626819
 8D:/College/GP/aes-coprocessor-uvm/rtl/src/cv32e40x_core_with_aes.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/src/cv32e40x_core_with_aes.sv
-!i122 2072
+!i122 2701
 L0 1 189
 R12
 R13
 r1
 !s85 0
 31
-R14
+R18
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/src/cv32e40x_core_with_aes.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/src/cv32e40x_core_with_aes.sv|
 !i113 0
@@ -637,24 +642,24 @@ R15
 R6
 vcv32e40x_cs_registers
 R8
-R18
-R26
+R19
+R25
 !i10b 1
 !s100 GYRaUWgl6H2WSd@[jU1>Q1
 I2diG3MAQ<>3;8l:3fM4KZ1
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_cs_registers.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_cs_registers.sv
-!i122 2038
+!i122 2667
 L0 30 1915
 R12
 R13
 r1
 !s85 0
 31
-Z27 !s108 1718908801.000000
+R26
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_cs_registers.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_cs_registers.sv|
 !i113 0
@@ -662,23 +667,23 @@ R15
 R6
 vcv32e40x_csr
 R8
-R26
+R25
 !i10b 1
 !s100 2kU>XY]GSciaOfdgB`Og`0
 I6ViT2n@je1n>B3731@ccK3
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_csr.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_csr.sv
-!i122 2039
+!i122 2668
 L0 10 38
 R12
 R13
 r1
 !s85 0
 31
-R27
+R26
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_csr.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_csr.sv|
 !i113 0
@@ -686,24 +691,24 @@ R15
 R6
 vcv32e40x_data_obi_interface
 R8
-R18
-R26
+R19
+R25
 !i10b 1
 !s100 bOc^UlBI5O3:eU2L;Sh9z1
 Ihma;84JDiY1j4?;_7A`8`0
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_data_obi_interface.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_data_obi_interface.sv
-!i122 2040
+!i122 2669
 L0 38 41
 R12
 R13
 r1
 !s85 0
 31
-R27
+R26
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_data_obi_interface.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_data_obi_interface.sv|
 !i113 0
@@ -711,24 +716,24 @@ R15
 R6
 vcv32e40x_debug_triggers
 R8
-R18
-R26
+R19
+R25
 !i10b 1
 !s100 W4fLEE?>m`zlYTD^ez;A72
 Ie4mg>5_SDk9LgBiTb9Sa13
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_debug_triggers.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_debug_triggers.sv
-!i122 2041
+!i122 2670
 L0 32 495
 R12
 R13
 r1
 !s85 0
 31
-R27
+R26
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_debug_triggers.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_debug_triggers.sv|
 !i113 0
@@ -736,24 +741,24 @@ R15
 R6
 vcv32e40x_decoder
 R8
-R18
-R26
+R19
+R25
 !i10b 1
 !s100 U:AM^4ohc0CFF48Zh6[mE1
 IV3536EUhU9KOTIE?C]`:g0
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_decoder.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_decoder.sv
-!i122 2042
+!i122 2671
 L0 28 282
 R12
 R13
 r1
 !s85 0
 31
-R27
+R26
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_decoder.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_decoder.sv|
 !i113 0
@@ -761,24 +766,24 @@ R15
 R6
 vcv32e40x_div
 R8
-R18
-R26
+R19
+R25
 !i10b 1
 !s100 2G:O`i3jHMkom0H9X[g`80
 Im>;bjG9ZYdN3D8DZb1OoX1
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_div.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_div.sv
-!i122 2043
+!i122 2672
 L0 28 317
 R12
 R13
 r1
 !s85 0
 31
-R27
+R26
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_div.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_div.sv|
 !i113 0
@@ -786,24 +791,24 @@ R15
 R6
 vcv32e40x_ex_stage
 R8
-R18
-R26
+R19
+R25
 !i10b 1
 !s100 7Sfd@W10kL[VG<TeG?>]Y2
 I]`mla;g0aYBL`X?YhcT:01
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_ex_stage.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_ex_stage.sv
-!i122 2044
+!i122 2673
 L0 33 468
 R12
 R13
 r1
 !s85 0
 31
-R27
+R26
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_ex_stage.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_ex_stage.sv|
 !i113 0
@@ -811,23 +816,23 @@ R15
 R6
 vcv32e40x_ff_one
 R8
-R26
+R25
 !i10b 1
 !s100 f5:NC@UmzbWYg=^;BozN?3
 I_YcUYDX1Q<j_9GCaI]?;Q0
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_ff_one.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_ff_one.sv
-!i122 2045
+!i122 2674
 L0 25 77
 R12
 R13
 r1
 !s85 0
 31
-R27
+R26
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_ff_one.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_ff_one.sv|
 !i113 0
@@ -835,24 +840,24 @@ R15
 R6
 vcv32e40x_i_decoder
 R8
-R18
-Z28 !s110 1718908802
+R19
+R25
 !i10b 1
 !s100 >?@<TeBOXV6H]14a3<>GW3
 IoH`1]Va48`K]f8`oJdRmh0
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_i_decoder.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_i_decoder.sv
-!i122 2046
+!i122 2675
 L0 30 398
 R12
 R13
 r1
 !s85 0
 31
-R27
+R26
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_i_decoder.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_i_decoder.sv|
 !i113 0
@@ -860,24 +865,24 @@ R15
 R6
 vcv32e40x_id_stage
 R8
-R18
-R28
+R19
+R25
 !i10b 1
 !s100 P[[:l2HY0FTHmN12=CfZB2
 IoFjgQoeIW_goS7zW0iW_B3
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_id_stage.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_id_stage.sv
-!i122 2047
+!i122 2676
 L0 33 760
 R12
 R13
 r1
 !s85 0
 31
-Z29 !s108 1718908802.000000
+R26
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_id_stage.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_id_stage.sv|
 !i113 0
@@ -885,24 +890,24 @@ R15
 R6
 Ycv32e40x_if_c_obi
 R8
-R18
-R28
+R19
+Z27 !s110 1720383443
 !i10b 1
 !s100 Pj_^^AK`WWYlYEOYK^i6@3
 IkSoA6HCcUjc`kd9HXONTT0
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_if_c_obi.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_if_c_obi.sv
-!i122 2048
+!i122 2677
 L0 27 0
 R12
 R13
 r1
 !s85 0
 31
-R29
+Z28 !s108 1720383443.000000
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_if_c_obi.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_if_c_obi.sv|
 !i113 0
@@ -910,24 +915,24 @@ R15
 R6
 vcv32e40x_if_stage
 R8
-R18
-R28
+R19
+R27
 !i10b 1
 !s100 DK:P9z;iI_MmTb7;WZg3I1
 IEgjA_9`alBAka1b?C?fIM1
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_if_stage.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_if_stage.sv
-!i122 2049
+!i122 2678
 L0 29 514
 R12
 R13
 r1
 !s85 0
 31
-R29
+R28
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_if_stage.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_if_stage.sv|
 !i113 0
@@ -935,23 +940,23 @@ R15
 R6
 Ycv32e40x_if_xif
 R8
-R28
+R27
 !i10b 1
 !s100 RA74[36XnN;Joz;^KH`eP1
 I4c>nK^JHoKkUB`O>fN`z00
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_if_xif.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_if_xif.sv
-!i122 2050
+!i122 2679
 L0 31 0
 R12
 R13
 r1
 !s85 0
 31
-R29
+R28
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_if_xif.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_if_xif.sv|
 !i113 0
@@ -959,24 +964,24 @@ R15
 R6
 vcv32e40x_instr_obi_interface
 R8
-R18
-R28
+R19
+R27
 !i10b 1
 !s100 n2[1jfQ24_H`ioiV2lRJS3
 IGhCU0:<ZR6>4^8ERkZS;M0
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_instr_obi_interface.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_instr_obi_interface.sv
-!i122 2051
+!i122 2680
 L0 38 118
 R12
 R13
 r1
 !s85 0
 31
-R29
+R28
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_instr_obi_interface.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_instr_obi_interface.sv|
 !i113 0
@@ -984,24 +989,24 @@ R15
 R6
 vcv32e40x_int_controller
 R8
-R18
-R28
+R19
+R27
 !i10b 1
 !s100 blHPY@Hd>M:hH7Z0T`Im50
 I=ACTimh81`;bRA;n?N4V21
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_int_controller.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_int_controller.sv
-!i122 2052
+!i122 2681
 L0 24 102
 R12
 R13
 r1
 !s85 0
 31
-R29
+R28
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_int_controller.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_int_controller.sv|
 !i113 0
@@ -1009,24 +1014,24 @@ R15
 R6
 vcv32e40x_load_store_unit
 R8
-R18
-R28
+R19
+R27
 !i10b 1
 !s100 zPT?8BQLE<b<]QC^<2<Sg3
 IR<CUAkl@L@=^jZ[eMUQen0
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_load_store_unit.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_load_store_unit.sv
-!i122 2053
+!i122 2682
 L0 28 943
 R12
 R13
 r1
 !s85 0
 31
-R29
+R28
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_load_store_unit.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_load_store_unit.sv|
 !i113 0
@@ -1034,24 +1039,24 @@ R15
 R6
 vcv32e40x_lsu_response_filter
 R8
-R18
-R28
+R19
+R27
 !i10b 1
 !s100 KCX`Q;eX^YT]ekVJBGFA10
 I9^UoG7Pd?C]R3;=>QDCDJ3
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_lsu_response_filter.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_lsu_response_filter.sv
-!i122 2054
+!i122 2683
 L0 33 141
 R12
 R13
 r1
 !s85 0
 31
-R29
+R28
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_lsu_response_filter.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_lsu_response_filter.sv|
 !i113 0
@@ -1059,24 +1064,24 @@ R15
 R6
 vcv32e40x_m_decoder
 R8
-R18
-R28
+R19
+R27
 !i10b 1
 !s100 U=E_:ONoUMkZFm@^f9VO;2
 IYT``[nOYjab@L0RQ:9Dm;0
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_m_decoder.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_m_decoder.sv
-!i122 2055
+!i122 2684
 L0 29 108
 R12
 R13
 r1
 !s85 0
 31
-R29
+R28
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_m_decoder.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_m_decoder.sv|
 !i113 0
@@ -1084,24 +1089,24 @@ R15
 R6
 vcv32e40x_mpu
 R8
-R18
-R28
+R19
+R27
 !i10b 1
 !s100 3jK7W>>F[_1mTK0j96@Yl3
 IQM7Ajd2d1Q[Y?z`2ONZ=V2
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_mpu.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_mpu.sv
-!i122 2056
+!i122 2685
 L0 26 206
 R12
 R13
 r1
 !s85 0
 31
-R29
+R28
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_mpu.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_mpu.sv|
 !i113 0
@@ -1109,24 +1114,24 @@ R15
 R6
 vcv32e40x_mult
 R8
-R18
-Z30 !s110 1718908803
+R19
+R27
 !i10b 1
 !s100 X2@fEO2KbM;^gM3XI4HcC2
 ImMfYbeO=lVfOOeM^6EzzY0
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_mult.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_mult.sv
-!i122 2057
+!i122 2686
 L0 27 207
 R12
 R13
 r1
 !s85 0
 31
-R29
+R28
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_mult.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_mult.sv|
 !i113 0
@@ -1134,24 +1139,24 @@ R15
 R6
 vcv32e40x_pc_target
 R8
-R18
-R30
+R19
+R27
 !i10b 1
 !s100 YIGIO7boSfLSzR4Gcgn5b1
 Ik>;E1hGd6X^iKiAJ0VDni3
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_pc_target.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_pc_target.sv
-!i122 2058
+!i122 2687
 L0 26 29
 R12
 R13
 r1
 !s85 0
 31
-Z31 !s108 1718908803.000000
+R28
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_pc_target.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_pc_target.sv|
 !i113 0
@@ -1159,23 +1164,23 @@ R15
 R6
 Xcv32e40x_pkg
 R8
-R9
+R17
 !i10b 1
 !s100 lA`HPzf=DamLnSUaXfBKn0
 IhUK@Xhg8RJbcEl2`@R==@3
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/include/cv32e40x_pkg.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/include/cv32e40x_pkg.sv
-!i122 2070
+!i122 2699
 L0 28 0
 VhUK@Xhg8RJbcEl2`@R==@3
 R13
 r1
 !s85 0
 31
-R14
+R18
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/include/cv32e40x_pkg.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/include/cv32e40x_pkg.sv|
 !i113 0
@@ -1183,24 +1188,24 @@ R15
 R6
 vcv32e40x_pma
 R8
-R18
-R30
+R19
+R27
 !i10b 1
 !s100 0H;?fmb_Vokh8a_nG63H`2
 IaXEiheVdNeR;i72j91]lb2
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_pma.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_pma.sv
-!i122 2059
+!i122 2688
 L0 26 116
 R12
 R13
 r1
 !s85 0
 31
-R31
+R28
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_pma.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_pma.sv|
 !i113 0
@@ -1208,23 +1213,23 @@ R15
 R6
 vcv32e40x_popcnt
 R8
-R30
+R27
 !i10b 1
 !s100 1OXb?@XQ3Y5z<aeI8;=VS3
 ID_5K9QBPVZ]_f]:oP1iR]3
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_popcnt.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_popcnt.sv
-!i122 2060
+!i122 2689
 L0 25 39
 R12
 R13
 r1
 !s85 0
 31
-R31
+R28
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_popcnt.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_popcnt.sv|
 !i113 0
@@ -1232,24 +1237,24 @@ R15
 R6
 vcv32e40x_prefetch_unit
 R8
-R18
-R30
+R19
+R17
 !i10b 1
 !s100 TA[7T^92Si05UEd`56kV<0
 IK38gj]nh=[k<A?2_BS08F0
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_prefetch_unit.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_prefetch_unit.sv
-!i122 2061
+!i122 2690
 L0 29 122
 R12
 R13
 r1
 !s85 0
 31
-R31
+R18
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_prefetch_unit.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_prefetch_unit.sv|
 !i113 0
@@ -1257,24 +1262,24 @@ R15
 R6
 vcv32e40x_prefetcher
 R8
-R18
-R30
+R19
+R17
 !i10b 1
 !s100 KiAe[CG`_d42YB5UfER1N0
 IlkcgC38]TQQP[3@joGgg;2
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_prefetcher.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_prefetcher.sv
-!i122 2062
+!i122 2691
 L0 40 117
 R12
 R13
 r1
 !s85 0
 31
-R31
+R18
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_prefetcher.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_prefetcher.sv|
 !i113 0
@@ -1282,24 +1287,24 @@ R15
 R6
 vcv32e40x_register_file
 R8
-R18
-R30
+R19
+R17
 !i10b 1
 !s100 @E6Fll@GN57J5cCboOoOg2
 IS01g2FlRRZ^1@b_>`gVXW2
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_register_file.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_register_file.sv
-!i122 2063
+!i122 2692
 L0 29 94
 R12
 R13
 r1
 !s85 0
 31
-R31
+R18
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_register_file.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_register_file.sv|
 !i113 0
@@ -1307,24 +1312,24 @@ R15
 R6
 vcv32e40x_register_file_wrapper
 R8
-R18
-R30
+R19
+R17
 !i10b 1
 !s100 45A8AzH4O14P6ZDK@Phz:1
 IePOKaXaBD;a<1N<QkjFli2
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_register_file_wrapper.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_register_file_wrapper.sv
-!i122 2064
+!i122 2693
 L0 31 42
 R12
 R13
 r1
 !s85 0
 31
-R31
+R18
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_register_file_wrapper.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_register_file_wrapper.sv|
 !i113 0
@@ -1332,24 +1337,24 @@ R15
 R6
 vcv32e40x_sequencer
 R8
-R18
-R30
+R19
+R17
 !i10b 1
 !s100 Bg_<78Th9bWQcGG6QJnXU3
 IHkUD8nQ=fnF6^iAP@MBC[2
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_sequencer.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_sequencer.sv
-!i122 2065
+!i122 2694
 L0 34 417
 R12
 R13
 r1
 !s85 0
 31
-R31
+R18
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_sequencer.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_sequencer.sv|
 !i113 0
@@ -1357,24 +1362,24 @@ R15
 R6
 vcv32e40x_sleep_unit
 R8
-R18
-R30
+R19
+R17
 !i10b 1
 !s100 YF^41T=bb8?Gd`=zd3o<G2
 IDkC=EznigWa1d5Q08LbDB1
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_sleep_unit.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_sleep_unit.sv
-!i122 2066
+!i122 2695
 L0 43 75
 R12
 R13
 r1
 !s85 0
 31
-R31
+R18
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_sleep_unit.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_sleep_unit.sv|
 !i113 0
@@ -1382,24 +1387,24 @@ R15
 R6
 vcv32e40x_wb_stage
 R8
-R18
-R9
+R19
+R17
 !i10b 1
 !s100 ca8<@moMN7;SNWB=OlGfP3
 IhlfJgfZ80oVZ9=eb5LQoQ0
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_wb_stage.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_wb_stage.sv
-!i122 2067
+!i122 2696
 L0 37 203
 R12
 R13
 r1
 !s85 0
 31
-R31
+R18
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_wb_stage.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_wb_stage.sv|
 !i113 0
@@ -1407,24 +1412,24 @@ R15
 R6
 vcv32e40x_wpt
 R8
-R18
-R9
+R19
+R17
 !i10b 1
 !s100 d0>cXkNZJaTn3L6MZdDmh1
 IXVMUISC9VIlMK2PoW2>=E1
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_wpt.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_wpt.sv
-!i122 2068
+!i122 2697
 L0 31 148
 R12
 R13
 r1
 !s85 0
 31
-R14
+R18
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_wpt.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_wpt.sv|
 !i113 0
@@ -1432,24 +1437,24 @@ R15
 R6
 vcv32e40x_write_buffer
 R8
-R18
-R9
+R19
+R17
 !i10b 1
 !s100 ZGTC4mlB6lNX9jT[Gl:nQ3
 I2[YM@OOL>8MWL52o<I4i01
 S1
 R10
-R20
+R21
 8D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_write_buffer.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_write_buffer.sv
-!i122 2069
+!i122 2698
 L0 32 87
 R12
 R13
 r1
 !s85 0
 31
-R14
+R18
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_write_buffer.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/cv32e40x/rtl/cv32e40x_write_buffer.sv|
 !i113 0
@@ -1457,23 +1462,23 @@ R15
 R6
 vdut
 R8
-R24
+R23
 !i10b 1
 !s100 DbcTGbX5dc>2ZM1JOf`kK2
 I:dQ43n^9mF=Q7K5aTKLHi0
 S1
 R10
-w1718896098
+w1720230905
 8D:/College/GP/aes-coprocessor-uvm/dut/dut.sv
 FD:/College/GP/aes-coprocessor-uvm/dut/dut.sv
-!i122 2086
+!i122 2715
 L0 1 171
 R12
 R13
 r1
 !s85 0
 31
-R25
+R24
 !s107 D:/College/GP/aes-coprocessor-uvm/dut/dut.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/dut/dut.sv|
 !i113 0
@@ -1481,23 +1486,23 @@ R15
 R6
 Yintf
 R8
-R17
+R9
 !i10b 1
 !s100 zGd<M9?ziK^5k77_Z^Q1Q1
 IEJSR96;>_>[W3@Y=40l?J0
 S1
 R10
-w1718899946
+w1720319286
 8D:/College/GP/aes-coprocessor-uvm/intf.sv
 FD:/College/GP/aes-coprocessor-uvm/intf.sv
-!i122 2083
-Z32 L0 1 0
+!i122 2712
+Z29 L0 1 0
 R12
 R13
 r1
 !s85 0
 31
-Z33 !s108 1718908805.000000
+R14
 !s107 D:/College/GP/aes-coprocessor-uvm/intf.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/intf.sv|
 !i113 0
@@ -1505,7 +1510,7 @@ R15
 R6
 vmemory
 R8
-R24
+R23
 !i10b 1
 !s100 ek_HS4h87gA8@HKDQBJcQ1
 I7[c63c_C^n;3aSmlCa7R@0
@@ -1514,14 +1519,14 @@ R10
 w1718905707
 8D:/College/GP/aes-coprocessor-uvm/dut/memory.sv
 FD:/College/GP/aes-coprocessor-uvm/dut/memory.sv
-!i122 2087
+!i122 2716
 L0 1 127
 R12
 R13
 r1
 !s85 0
 31
-R25
+R24
 !s107 D:/College/GP/aes-coprocessor-uvm/dut/memory.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/dut/memory.sv|
 !i113 0
@@ -1530,14 +1535,14 @@ R6
 Xmy_pkg
 !s115 intf
 R8
-Z34 DXx6 mtiUvm 7 uvm_pkg 0 22 8V[`8]Q0W57le7Z>zYaAj1
-R17
+Z30 DXx6 mtiUvm 7 uvm_pkg 0 22 8V[`8]Q0W57le7Z>zYaAj1
+R23
 !i10b 1
-!s100 ]fin0mem_T3_5elVBmVH21
-ITEkD^l>UL@nT<5_<M_T3a3
+!s100 ^LbM1DYmR]I>EQHTCz6<n0
+ImIC489QCMBW`X5>jIDOOT0
 S1
 R10
-w1718908791
+w1720383394
 8D:/College/GP/aes-coprocessor-uvm/my_pkg.sv
 FD:/College/GP/aes-coprocessor-uvm/my_pkg.sv
 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
@@ -1561,14 +1566,14 @@ FD:/College/GP/aes-coprocessor-uvm/my_subscriber.sv
 FD:/College/GP/aes-coprocessor-uvm/my_agent.sv
 FD:/College/GP/aes-coprocessor-uvm/my_env.sv
 FD:/College/GP/aes-coprocessor-uvm/my_test.sv
-!i122 2084
-R32
-VTEkD^l>UL@nT<5_<M_T3a3
+!i122 2713
+R29
+VmIC489QCMBW`X5>jIDOOT0
 R13
 r1
 !s85 0
 31
-R33
+R14
 !s107 D:/College/GP/aes-coprocessor-uvm/my_test.sv|D:/College/GP/aes-coprocessor-uvm/my_env.sv|D:/College/GP/aes-coprocessor-uvm/my_agent.sv|D:/College/GP/aes-coprocessor-uvm/my_subscriber.sv|D:/College/GP/aes-coprocessor-uvm/my_scoreboard.sv|D:/College/GP/aes-coprocessor-uvm/my_monitor.sv|D:/College/GP/aes-coprocessor-uvm/my_driver.sv|D:/College/GP/aes-coprocessor-uvm/my_sequence.sv|D:/College/GP/aes-coprocessor-uvm/my_sequence_item.sv|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|D:/College/GP/aes-coprocessor-uvm/my_pkg.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/my_pkg.sv|
 !i113 0
@@ -1576,7 +1581,7 @@ R15
 R6
 vrole32
 R8
-R17
+R9
 !i10b 1
 !s100 mE`WM_GSJJNHTldR3a;BL0
 IM8iM_HoHYNUYoBD9N:ZjE2
@@ -1585,14 +1590,14 @@ R10
 w1714838884
 8D:/College/GP/aes-coprocessor-uvm/rtl/src/aes/role32.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/src/aes/role32.sv
-!i122 2080
+!i122 2709
 L0 1 12
 R12
 R13
 r1
 !s85 0
 31
-R33
+R14
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/src/aes/role32.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/src/aes/role32.sv|
 !i113 0
@@ -1600,7 +1605,7 @@ R15
 R6
 vsbox
 R8
-R17
+R9
 !i10b 1
 !s100 M6J5JlzT]MT<oUl_DO:c50
 I`mQP7kSHC=ZXCTQ7=9nX71
@@ -1609,14 +1614,14 @@ R10
 w1714838900
 8D:/College/GP/aes-coprocessor-uvm/rtl/src/aes/sbox.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/src/aes/sbox.sv
-!i122 2081
+!i122 2710
 L0 1 272
 R12
 R13
 r1
 !s85 0
 31
-R33
+R14
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/src/aes/sbox.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/src/aes/sbox.sv|
 !i113 0
@@ -1624,7 +1629,7 @@ R15
 R6
 vsbox_inv
 R8
-R17
+R9
 !i10b 1
 !s100 DB1FcB3e9VMn:C7QQ1S[h3
 IKG4fW]VDNMe>:`iTg9ic52
@@ -1633,14 +1638,14 @@ R10
 w1714838887
 8D:/College/GP/aes-coprocessor-uvm/rtl/src/aes/sbox_inv.sv
 FD:/College/GP/aes-coprocessor-uvm/rtl/src/aes/sbox_inv.sv
-!i122 2082
+!i122 2711
 L0 1 269
 R12
 R13
 r1
 !s85 0
 31
-R33
+R14
 !s107 D:/College/GP/aes-coprocessor-uvm/rtl/src/aes/sbox_inv.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/College/GP/aes-coprocessor-uvm/rtl/src/aes/sbox_inv.sv|
 !i113 0
@@ -1648,27 +1653,27 @@ R15
 R6
 vtop
 R8
-R34
-DXx4 work 6 my_pkg 0 22 TEkD^l>UL@nT<5_<M_T3a3
-R24
+R30
+DXx4 work 6 my_pkg 0 22 mIC489QCMBW`X5>jIDOOT0
+R23
 !i10b 1
 !s100 e=4mMM>`DAzl?9zn2KjBX1
-IP^Mb<^Y3E263i^0e9@C]Y0
+IBNDC<2XagBaI1cMVZ4SOX3
 S1
 R10
-w1718875342
-8D:/College/GP/aes-coprocessor-uvm/top.sv
-FD:/College/GP/aes-coprocessor-uvm/top.sv
-!i122 2085
+w1720366482
+8D:\College\GP\aes-coprocessor-uvm\top.sv
+FD:\College\GP\aes-coprocessor-uvm\top.sv
+!i122 2714
 L0 1 13
 R12
 R13
 r1
 !s85 0
 31
-R33
-!s107 D:/College/GP/aes-coprocessor-uvm/top.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-cover|t3|-stats=none|D:/College/GP/aes-coprocessor-uvm/top.sv|
+R24
+!s107 D:\College\GP\aes-coprocessor-uvm\top.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-cover|t3|-stats=none|D:\College\GP\aes-coprocessor-uvm\top.sv|
 !i113 0
 !s102 -cover t3
 o-work work -sv -cover t3 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
