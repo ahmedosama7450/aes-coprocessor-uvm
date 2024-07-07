@@ -27,20 +27,18 @@ class my_scoreboard extends uvm_scoreboard;
   function void report_phase(uvm_phase phase);
     super.report_phase(phase);
 
-    `uvm_info(get_full_name(), $sformatf("\nTotal transactions count: %0d", total_transactions_count),
-              UVM_LOW)
-
     `uvm_info(get_full_name(), $sformatf(
-              "\n---Encryption---\nPass count: %0d\nFail count: %0d\nNo output count: %0d\n",
+              "\nTotal transactions count: %0d
+              \n---Encryption---\nPass count: %0d\nFail count: %0d\nNo output count: %0d\n
+              \n---Decryption---\nPass count: %0d\nFail count: %0d\n",
+              total_transactions_count,
               enc_pass_count,
               enc_fail_count,
-              enc_no_output_count
-              ), UVM_LOW)
+              enc_no_output_count,
+              dec_pass_count,
+              dec_fail_count,
+              ), UVM_LOW);
 
-    `uvm_info(
-        get_full_name(), $sformatf(
-        "\n---Decryption---\nPass count: %0d\nFail count: %0d\n", dec_pass_count, dec_fail_count,),
-        UVM_LOW)
   endfunction
 
   function void write(my_sequence_item t);
@@ -58,7 +56,7 @@ class my_scoreboard extends uvm_scoreboard;
     end
 
     // Encryption
-    outputFile = $fopen("output.txt", "r");
+    outputFile = $fopen("D:/College/GP/aes-coprocessor-uvm/output.txt", "r");
 
     if ($fscanf(outputFile, "%h", golden_model_out) != 1) begin
       $display("TX %0d, No encryption output", total_transactions_count);
